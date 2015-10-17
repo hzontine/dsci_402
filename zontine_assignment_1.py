@@ -60,7 +60,7 @@ def spiral(n, end_corner):
 	direction_headed = direction[1]
 	directions_changed = 0
 	while (curr_num >= 0):
-		curr_pos = curr_pos[0] + direction_headed #no
+		curr_pos = curr_pos[0] + direction_headed
 		steps_walked = steps_walked + 1
 		curr_num = curr_num - 1
 		dist_to_go = n-1
