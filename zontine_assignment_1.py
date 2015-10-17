@@ -71,3 +71,4 @@ def spiral(n, end_corner):
 				direction_headed = direction[1]	
 	for row in array:
 		print row
+
