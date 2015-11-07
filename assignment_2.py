@@ -1,3 +1,6 @@
+#Hannah Zontine
+#Assignment 2
+
 def word_breaks(original_word, word_list):
     firstPhrase = findPhrase([], original_word,word_list) 
     phrases = []
